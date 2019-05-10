@@ -1,10 +1,10 @@
+import matplotlib.pyplot as plt
 from keras.datasets import reuters
 import numpy as np
 from keras import layers
 from keras import models
 import matplotlib
 matplotlib.use("TkAgg")
-import matplotlib.pyplot as plt
 
 words = 10000
 word_index = reuters.get_word_index()
@@ -18,7 +18,7 @@ def get_text(integers):
 def vectorize_sequence(sequences, dimension=words):
     results = np.zeros((len(sequences), dimension))
     for i, sequence in enumerate(sequences):
-        # actually another iterator of sorts, 
+        # actually another iterator of sorts,
         results[i, sequence] = 1
     return results
 
@@ -54,7 +54,8 @@ partial_x_train = x_train[1000:]
 y_val = one_hot_train_labels[:1000]
 partial_y_train = one_hot_train_labels[1000:]
 
-history = network.fit(partial_x_train, partial_y_train, epochs=9, batch_size=512, validation_data=(x_val, y_val))
+history = network.fit(partial_x_train, partial_y_train,
+                      epochs=9, batch_size=512, validation_data=(x_val, y_val))
 
 loss = history.history['loss']
 val_loss = history.history['val_loss']
