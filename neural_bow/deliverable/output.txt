@@ -1,0 +1,27 @@
+===Output from the new_reviews.py review predictions===
+The file name encodes information about the review.
+The first number is the review #
+Followed by the title of the movie
+Followed by the rating out of 10 stars.
+So, 13_gots08e05_4 means Game of Thrones Season 8 Episode 5, rated 4/10 by the review author.
+
+['1_avengers_endgame_10.txt', (0.8868928, 'POSITIVE')]
+['2_avengers_endgame_10.txt', (0.5296272933483124, 'NEGATIVE')]
+['3_avengers_endgame_8.txt', (0.9726027, 'POSITIVE')]
+['4_avengers_endgame_6.txt', (0.8910283, 'POSITIVE')]
+['5_avengers_endgame_5.txt', (0.9715710002928972, 'NEGATIVE')]
+['6_avengers_endgame_6.txt', (0.9154012948274612, 'NEGATIVE')]
+['7_avengers_endgame_6.txt', (0.9019414931535721, 'NEGATIVE')]
+['8_avengers_endgame_10.txt', (0.6927113, 'POSITIVE')]
+['9_avengers_endgame_10.txt', (0.74408525, 'POSITIVE')]
+['10_avengers_engame_3.txt', (0.5214662849903107, 'NEGATIVE')]
+['11_gots08e05_7.txt', (0.8823471, 'POSITIVE')]
+['12_got08e05_5.txt', (0.8253348, 'POSITIVE')]
+['13_got08e05_4.txt', (0.6031956970691681, 'NEGATIVE')]
+['14_got08e05_4.txt', (0.52582365, 'POSITIVE')]
+['15_got08e05_5.txt', (0.9583185762166977, 'NEGATIVE')]
+['16_got08e05_6.txt', (0.7902358770370483, 'NEGATIVE')]
+['17_got08e05_2.txt', (0.6901165, 'POSITIVE')]
+['18_got08e05_1.txt', (0.6137554347515106, 'NEGATIVE')]
+['19_got08e05_2.txt', (0.8280572146177292, 'NEGATIVE')]
+['20_got08e05_2.txt', (0.5811952948570251, 'NEGATIVE')]
