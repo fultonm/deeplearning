@@ -1,0 +1,31 @@
+# INFO: Each review is a tuple, where the first value is the filename.
+# The filename encodes information about the view.
+# The first tuple value:
+# The first number is the review # which increments for each review
+# The second string is the show or movie.
+# The third number is its rating out of 10 stars.
+# The second tuple value is another tuple where:
+# The first value is its scoring, denoting how strongly positive or NEGATIVE the prediction is
+# The second value is a binary classification whether the movie is positive or negative.
+
+
+('15_got08e05_5.txt', (0.57272816, 'POSITIVE'))
+('12_got08e05_5.txt', (0.743433803319931, 'NEGATIVE'))
+('13_got08e05_4.txt', (0.5575190782546997, 'NEGATIVE'))
+('10_avengers_engame_3.txt', (0.7051434814929962, 'NEGATIVE'))
+('3_avengers_endgame_8.txt', (0.917068, 'POSITIVE'))
+('14_got08e05_4.txt', (0.5759883, 'POSITIVE'))
+('17_got08e05_2.txt', (0.5922273, 'POSITIVE'))
+('8_avengers_endgame_10.txt', (0.71225744, 'POSITIVE'))
+('16_got08e05_6.txt', (0.9151299446821213, 'NEGATIVE'))
+('18_got08e05_1.txt', (0.5616407990455627, 'NEGATIVE'))
+('19_got08e05_2.txt', (0.7185609638690948, 'NEGATIVE'))
+('6_avengers_endgame_6.txt', (0.9013578817248344, 'NEGATIVE'))
+('5_avengers_endgame_5.txt', (0.9852147111669183, 'NEGATIVE'))
+('1_avengers_endgame_10.txt', (0.8965307921171188, 'NEGATIVE'))
+('4_avengers_endgame_6.txt', (0.98868525, 'POSITIVE'))
+('2_avengers_endgame_10.txt', (0.8807985261082649, 'NEGATIVE'))
+('9_avengers_endgame_10.txt', (0.6590532, 'POSITIVE'))
+('20_got08e05_2.txt', (0.6665399968624115, 'NEGATIVE'))
+('7_avengers_endgame_6.txt', (0.9966661538928747, 'NEGATIVE'))
+('11_gots08e05_7.txt', (0.8771570920944214, 'NEGATIVE'))
